@@ -1,0 +1,24 @@
+# Google OAuth istemci dosyaları ve token'lar ASLA repoya girmez
+credentials.json
+client_secret*.json
+token*.json
+*.pickle
+.env
+.env.*
+
+# Uygulama yerel verileri (normalde %APPDATA%\DriveYonetici altındadır)
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+hesaplar.json
+ayarlar.json
+uygulama.log*
+
+# Derleme çıktıları
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
